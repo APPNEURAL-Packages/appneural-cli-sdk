@@ -33,7 +33,6 @@ export function registerSdkCommands(program: Command): void {
         await withSpinner("Fetching APPNEURAL SDK catalogue", async () => {
           await new Promise((resolve) => setTimeout(resolve, 200));
         });
-        logger.info("APPNEURAL SDK: adminnexus-js");
         logger.info("APPNEURAL SDK: microservice-kit");
       })
     );
